@@ -1,0 +1,18 @@
+[theme]
+# Primary accent color for interactive elements
+primaryColor = "#dec960"  # Greek gold color
+
+# Background color for the main content area
+backgroundColor = "#0e1117"  # Dark background
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = "#262730"
+
+# Color used for almost all text
+textColor = "#fafafa"
+
+# Font family for all text in the app, except code blocks
+font = "serif"
+
+# The preset Streamlit theme that your custom theme inherits from
+base = "dark"
