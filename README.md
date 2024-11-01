@@ -1,0 +1,2 @@
+# AI_First_Day_3_Activity_6_JulianOnate
+Atlas BuhatAI
