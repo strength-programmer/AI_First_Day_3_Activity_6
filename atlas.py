@@ -39,7 +39,7 @@ with st.sidebar:
         try:
             # Test API key with a small request
             openai.ChatCompletion.create(
-                model="gpt-4",
+                model="gpt-4o-mini",
                 messages=[{"role": "user", "content": "test"}],
                 max_tokens=5
             )
@@ -220,7 +220,7 @@ elif options == "Workout Program":
         
         # Generate program using GPT-4
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "You are Atlas, the divine fitness expert. Create detailed, organized, personalized workout programs."},
                 {"role": "user", "content": prompt}
@@ -437,7 +437,7 @@ Atlas:
         # Generate Atlas response
         messages = [{'role': 'system', 'content': System_Prompt}] + st.session_state.messages
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4o-mini",
             messages=messages
         ).choices[0].message.content
 
